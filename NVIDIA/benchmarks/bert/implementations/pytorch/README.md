@@ -28,7 +28,7 @@ bzip2 -d enwiki-20200101-pages-articles-multistream.xml.bz2
 cd ..    # back to bert/cleanup_scripts  
 git clone https://github.com/attardi/wikiextractor.git  
 python3 wikiextractor/WikiExtractor.py wiki/enwiki-20200101-pages-articles-multistream.xml    # Results are placed in bert/cleanup_scripts/text  
-./process_wiki.sh '<text/*/wiki_??'  
+./process_wiki.sh 'text/*/wiki_??'  
 ```
 
 After running the process_wiki.sh script, for the 20200101 wiki dump, there will be 500 files, named part-00xxx-of-00500 in the ./results directory.
