@@ -13,6 +13,6 @@ sgf==0.5
 six==1.13.0
 tqdm==4.46.1
 pyasn1==0.4.8
-setuptools==47.1.1
+setuptools==70.0.0
 
 oauth2client==4.1
