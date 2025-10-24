@@ -5,7 +5,7 @@ fire==0.3.1
 google-cloud-logging==1.15.0
 google-cloud-bigtable==1.2.1
 grpcio-tools==1.29.0
-keras==2.3.1
+keras==3.11.3
 numpy==1.17.3
 protobuf==3.12.2
 pylint==2.5.3
